@@ -1,14 +1,17 @@
-*{
-    padding: 0;margin: 0;box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-nav{
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: blueviolet;
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
 }
+<<<<<<< HEAD
  
 .about{
     color: rgb(219, 57, 25);
@@ -16,6 +19,15 @@ nav{
     background-color: chartreuse;
     padding: 5px;
     border-radius: 5px;
+=======
+
+.about {
+  color: rgb(219, 57, 25);
+  font-size: 25px;
+  background-color: chartreuse;
+  padding: 5px;
+  border-radius: 5px;
+>>>>>>> c4bb23dd23bec7434b60518eade5d496b68c8887
 }
 /* <<<<<<< HEAD
 /* <<<<<<< HEAD
@@ -24,53 +36,88 @@ nav{
 <<<<<<< HEAD */
 /* ======= */ */
 
+<<<<<<< HEAD
 
 
 /* >>>>>>> b13a50e27ac95be75e453233d616588561842299 */
 
+=======
+<<<<<<< HEAD
+>>>>>>> c4bb23dd23bec7434b60518eade5d496b68c8887
 .salom {
-    max-width: 300px;
-    max-height: 100px;
-    background-color: aqua;
-    font-size: 28px;
-    font-weight: 600;
-    color: chocolate;
-    border-radius: 10px;
-    padding: 15px 45px;
-    box-shadow: 5px 5px 10px blueviolet;
-    transition: all .3s;
+  max-width: 300px;
+  max-height: 100px;
+  background-color: aqua;
+  font-size: 28px;
+  font-weight: 600;
+  color: chocolate;
+  border-radius: 10px;
+  padding: 15px 45px;
+  box-shadow: 5px 5px 10px blueviolet;
+  transition: all 0.3s;
 }
 
 .salomlar {
-    max-width: 100vw;
-    background-color: rgb(233, 229, 229);
+  max-width: 100vw;
+  background-color: rgb(233, 229, 229);
+  display: flex;
+  margin: 0 auto;
+  box-shadow: 10px 10px 5px red;
+=======
+
+.card-bg {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    margin: 50px;
+    padding: 50px 100px;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    border: 1px solid transparent;
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
     display: flex;
-    margin: 0 auto;
-    box-shadow: 10px 10px 5px red;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5%;
+    font-family: sans-serif;
+>>>>>>> 7e0075c6def5d23dd01fc25245f6832ae26bafee
 }
 
-.salom:hover {
-  box-shadow: 0 0 0;
-  transform: scale(1.3);
-  transform: translateX(600px);
+.card-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    
 }
 /* <<<<<<< HEAD
 /* =======
 >>>>>>> c7bfea073e35fd2556205852f97186955fe10c74 */
 /* ======= */ 
 
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css?family=Lato:100&display=swap");
 
+<<<<<<< HEAD
 /* >>>>>>> b13a50e27ac95be75e453233d616588561842299 */
 /* @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap'); */
 
 body, html {
+=======
+body,
+html {
+>>>>>>> c4bb23dd23bec7434b60518eade5d496b68c8887
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #5CA4EA;
+  background: #5ca4ea;
   overflow: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -96,7 +143,7 @@ body, html {
   height: 60px;
   cursor: pointer;
   background: transparent;
-  border: 1px solid #91C9FF;
+  border: 1px solid #91c9ff;
   outline: none;
   transition: 1s ease-in-out;
 }
@@ -114,7 +161,7 @@ svg {
 
 .btn:hover {
   transition: 1s ease-in-out;
-  background: #4F95DA;
+  background: #4f95da;
 }
 
 .btn:hover svg {
@@ -125,12 +172,12 @@ svg {
   color: white;
   font-size: 18px;
   font-weight: 100;
-
 }
 /* <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> b13a50e27ac95be75e453233d616588561842299 */
 
 
@@ -144,26 +191,33 @@ svg {
 
 
 
+=======
+>>>>>>> c4bb23dd23bec7434b60518eade5d496b68c8887
 .section-1 {
-    margin: 50px auto;
+  margin: 50px auto;
 }
 
 .Youtube {
-    padding: 30px;
-    background-color: black;
-    color: white;
+  padding: 30px;
+  background-color: black;
+  color: white;
 }
 
 .title-h2 {
-    color: gold;
+  color: gold;
 }
 
 .title--p {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 .vidoes {
-    border-radius: 20px;
+  border-radius: 20px;
+}
+=======
+.card-hr {
+    width: 200px;
+    color: aqua;
 }
 /* <<<<<<< HEAD */
 /* /* ======= */
@@ -171,4 +225,16 @@ svg {
 /* >>>>>>> c7bfea073e35fd2556205852f97186955fe10c74 */ 
 /* ======= */
 
+<<<<<<< HEAD
 /* >>>>>>> b13a50e27ac95be75e453233d616588561842299 */
+=======
+.card-button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: aqua;
+    font-weight: 500;
+
+}
+>>>>>>> 7e0075c6def5d23dd01fc25245f6832ae26bafee
+>>>>>>> c4bb23dd23bec7434b60518eade5d496b68c8887
