@@ -24,13 +24,17 @@ nav{
 }
 
 .Youtube {
-    padding: 20px;
+    padding: 30px;
     background-color: black;
     color: white;
 }
 
 .title-h2 {
     color: gold;
+}
+
+.title--p {
+    padding: 40px 0;
 }
 
 .vidoes {
