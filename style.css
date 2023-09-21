@@ -18,9 +18,15 @@ nav{
     border-radius: 5px;
 }
 /* <<<<<<< HEAD
+/* <<<<<<< HEAD
 
 =======
 <<<<<<< HEAD */
+/* ======= */ */
+
+
+
+/* >>>>>>> b13a50e27ac95be75e453233d616588561842299 */
 
 .salom {
     max-width: 300px;
@@ -48,9 +54,14 @@ nav{
   transform: scale(1.3);
   transform: translateX(600px);
 }
+/* <<<<<<< HEAD
 /* =======
 >>>>>>> c7bfea073e35fd2556205852f97186955fe10c74 */
-@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+/* ======= */ 
+
+
+/* >>>>>>> b13a50e27ac95be75e453233d616588561842299 */
+/* @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap'); */
 
 body, html {
   width: 100%;
@@ -114,8 +125,13 @@ svg {
   color: white;
   font-size: 18px;
   font-weight: 100;
+
 }
-/* <<<<<<< HEAD */
+/* <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> b13a50e27ac95be75e453233d616588561842299 */
 
 
 
@@ -149,6 +165,10 @@ svg {
 .vidoes {
     border-radius: 20px;
 }
-/* =======
->>>>>>> f9bf594f79eedb0927c232411b5ce61804cf5bc1
->>>>>>> c7bfea073e35fd2556205852f97186955fe10c74 */
+/* <<<<<<< HEAD */
+/* /* ======= */
+/* >>>>>>> f9bf594f79eedb0927c232411b5ce61804cf5bc1 */
+/* >>>>>>> c7bfea073e35fd2556205852f97186955fe10c74 */ 
+/* ======= */
+
+/* >>>>>>> b13a50e27ac95be75e453233d616588561842299 */
