@@ -17,3 +17,22 @@ nav{
     padding: 5px;
     border-radius: 5px;
 }
+
+
+.section-1 {
+    margin: 50px auto;
+}
+
+.Youtube {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.title-h2 {
+    color: gold;
+}
+
+.vidoes {
+    border-radius: 20px;
+}
