@@ -1,10 +1,137 @@
-.header {
-  height: 70px;
-  background-color: #025955;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.home {
-  color: #fde8cd;
-  text-align: center;
-  padding: 1rem;
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.about {
+  color: rgb(219, 57, 25);
+  font-size: 25px;
+  background-color: chartreuse;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.salom {
+  max-width: 300px;
+  max-height: 100px;
+  background-color: aqua;
+  font-size: 28px;
+  font-weight: 600;
+  color: chocolate;
+  border-radius: 10px;
+  padding: 15px 45px;
+  box-shadow: 5px 5px 10px blueviolet;
+  transition: all 0.3s;
+}
+
+.salomlar {
+  max-width: 100vw;
+  background-color: rgb(233, 229, 229);
+  display: flex;
+  margin: 0 auto;
+  box-shadow: 10px 10px 5px red;
+}
+
+.salom:hover {
+  box-shadow: 0 0 0;
+  transform: scale(1.3);
+  transform: translateX(600px);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:100&display=swap");
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #5ca4ea;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91c9ff;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4f95da;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.section-1 {
+  margin: 50px auto;
+}
+
+.Youtube {
+  padding: 30px;
+  background-color: black;
+  color: white;
+}
+
+.title-h2 {
+  color: gold;
+}
+
+.title--p {
+  padding: 40px 0;
+}
+
+.vidoes {
+  border-radius: 20px;
 }
